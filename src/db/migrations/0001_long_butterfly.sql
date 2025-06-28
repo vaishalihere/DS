@@ -1,0 +1,1 @@
+ALTER TABLE "inspection" ADD COLUMN "user_id" text NOT NULL;

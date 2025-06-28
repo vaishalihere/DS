@@ -1,0 +1,1 @@
+ALTER TABLE "inspection" RENAME COLUMN "user_id" TO "userId";

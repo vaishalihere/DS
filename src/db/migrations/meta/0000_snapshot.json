@@ -1,0 +1,98 @@
+{
+  "id": "67e95786-18b1-4709-9e6b-52dd28dcdfc9",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.inspection": {
+      "name": "inspection",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "PartNo": {
+          "name": "PartNo",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "PartName": {
+          "name": "PartName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "Category": {
+          "name": "Category",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "RelatedTo": {
+          "name": "RelatedTo",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "IDim": {
+          "name": "IDim",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "Parameter": {
+          "name": "Parameter",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "Spec": {
+          "name": "Spec",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "LowerLimit": {
+          "name": "LowerLimit",
+          "type": "double precision",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "UpperLimit": {
+          "name": "UpperLimit",
+          "type": "double precision",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "Method": {
+          "name": "Method",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "sequences": {},
+  "roles": {},
+  "policies": {},
+  "views": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}

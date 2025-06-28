@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1751083862363,
+      "tag": "0000_yummy_kat_farrell",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1751084656387,
+      "tag": "0001_long_butterfly",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1751084829584,
+      "tag": "0002_material_stellaris",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1751085239809,
+      "tag": "0003_bright_kid_colt",
+      "breakpoints": true
+    }
+  ]
+}

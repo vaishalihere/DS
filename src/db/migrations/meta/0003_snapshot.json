@@ -1,0 +1,104 @@
+{
+  "id": "974ee017-e8c7-4cca-a32d-3a5302d5bc23",
+  "prevId": "cd6ecbce-cbd1-4931-a39f-f7e0430f9f80",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.favourites": {
+      "name": "favourites",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "userId": {
+          "name": "userId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "PartNo": {
+          "name": "PartNo",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "PartName": {
+          "name": "PartName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "Category": {
+          "name": "Category",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "RelatedTo": {
+          "name": "RelatedTo",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "IDim": {
+          "name": "IDim",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "Parameter": {
+          "name": "Parameter",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "Spec": {
+          "name": "Spec",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "LowerLimit": {
+          "name": "LowerLimit",
+          "type": "double precision",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "UpperLimit": {
+          "name": "UpperLimit",
+          "type": "double precision",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "Method": {
+          "name": "Method",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "sequences": {},
+  "roles": {},
+  "policies": {},
+  "views": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}
